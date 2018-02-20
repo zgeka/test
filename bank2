@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Рассчёт процента</title>
+	</head>
+	<body>
+		<script>
+			var summa = +prompt("Введите сумму вклада:");
+			var procent = +prompt("Введите процент:");
+			var a = ((summa/100)*procent);
+			var year = 1;
+			var one = summa + a;
+			alert("Сумма через 1 год: " + one);
+			year++;
+			var two = one + a;
+			alert("Сумма на 2ой год: " + two);
+			year++;
+			var three = two + a;
+			alert("Сумма на 3ий год: " + three);			
+			year++;
+			var four = three + a;
+			alert("Сумма на 4ый год: " + four);
+			year++;
+			var five = four + a;
+			alert("Сумма на 5ый год: " + five);
+		</script>
+	</body>
+</html>
